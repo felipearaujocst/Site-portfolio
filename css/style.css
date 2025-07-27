@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Stara";
+    src: url("../fontes/STARA-MEDIUM-BF65962709D948A.OTF") format("opentype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Stara";
+    src: url("../fontes/STARA-BOLD-BF65962709C55B4.OTF") format("opentype");
+    font-weight: 700;
+}
+
+
+:root{
+    --primary-color: #000;
+    --secondary-color: #ececec;
+    --font-family: "Stara", sans-serif;
+}
+
+body{
+    background-color: var(--primary-color);
+    font-family: var(--font-family);
+    color: var(--secondary-color);
+}
+
