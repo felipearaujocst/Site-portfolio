@@ -361,6 +361,33 @@ a {
     font-size: var(--font-sm);
 }
 
+@media screen and (min-width: 51.25em){
+    .container{
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .hero{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-content{
+        width: 380px;
+    }
+
+    .hero img{
+        width: 75%;
+        filter: contrast(1.2);
+    }
+
+    .projects-content{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
 
 
 
