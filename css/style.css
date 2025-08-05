@@ -329,6 +329,7 @@ a {
 
 .certification-content p {
     color: #a5a5a5;
+    white-space: none;
 }
 
 .certifications hr,
