@@ -433,6 +433,11 @@ a {
     
     .about{
         display: flex;
+        gap: 6rem;
+    }
+
+    .about-content{
+        width: 60%;
     }
 
 
